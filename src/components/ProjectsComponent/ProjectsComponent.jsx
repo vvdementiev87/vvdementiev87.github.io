@@ -5,7 +5,7 @@ import styles from "./ProjectsComponent.module.scss";
 export const ProjectsComponent = ({ projects }) => {
   console.log(projects);
   return (
-    <div className={styles.container} id="about">
+    <div className={styles.container} id="projects">
       <div className={styles.projectsBox}>
         <h2>Progects</h2>
         <div className={styles.projectsWrapper}>
