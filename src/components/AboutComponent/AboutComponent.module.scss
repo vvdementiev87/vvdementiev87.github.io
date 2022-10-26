@@ -1,4 +1,5 @@
 .container {
+  padding: 10px 0;
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
@@ -22,6 +23,7 @@
   background-image: url("./Photo.jpg");
 }
 .aboutBox {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -38,7 +40,7 @@
   padding: 10px;
   & p {
     color: #ffffff;
-    font-family: "Lobster", cursive;
+    font-family: "Bad Script", cursive;
     font-style: normal;
     font-size: 24px;
     line-height: 180%;

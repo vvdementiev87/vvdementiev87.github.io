@@ -13,7 +13,7 @@ function App() {
     <div className="main">
       <Header />
       <AboutComponent />
-      <ProjectsComponent />
+      <ProjectsComponent projects={data.projects} />
       <ContactsComponent />
       <SkillsComponent skills={data.skills} />
       <StudingComponent skills={data.studing} />
