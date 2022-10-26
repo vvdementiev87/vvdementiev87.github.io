@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "text": "HTML",
+      "imgDir": "./images/HTMLLogo.png"
+    },
+    {
+      "text": "CSS",
+      "imgDir": "./images/CSSLogo.png"
+    },
+    {
+      "text": "ReactJS",
+      "imgDir": "./images/reactLogo.png"
+    },
+    {
+      "text": "GIT",
+      "imgDir": "./images/gitLogo.png"
+    }
+  ],
+  "studing": [
+    {
+      "text": "GraphQL",
+      "imgDir": "./images/GraphQLLogo.png"
+    },
+    {
+      "text": "NextJS",
+      "imgDir": "./images/NextLogo.svg"
+    },
+    {
+      "text": "Typescript",
+      "imgDir": "./images/TypescriptLogo.png"
+    }
+  ]
+}

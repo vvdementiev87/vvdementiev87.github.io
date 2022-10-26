@@ -1,0 +1,46 @@
+.container {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+.contactsBox {
+  width: 100%;
+  margin: 100px 0 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  & h2 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 120%;
+  }
+  & a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  & p {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
+.contactsItem {
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

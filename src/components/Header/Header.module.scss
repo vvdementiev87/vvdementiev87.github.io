@@ -1,0 +1,30 @@
+.container {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & > img {
+    width: 256px;
+  }
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 120%;
+  & > li {
+    padding: 20px;
+    cursor: pointer;
+  }
+}

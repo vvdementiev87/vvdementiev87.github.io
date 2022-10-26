@@ -1,0 +1,49 @@
+.container {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.skillsBox {
+  width: 100%;
+  margin: 100px 0 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  & h2 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 120%;
+  }
+  & h3 {
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 100%;
+  }
+  & img {
+    padding: 10px;
+    max-width: 240px;
+    width: 100%;
+  }
+}
+.skillsWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
