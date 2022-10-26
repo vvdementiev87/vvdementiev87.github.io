@@ -4,25 +4,29 @@
       "url": "https://vvdementiev87.github.io/Site-for-practice/",
       "text": "Online shop (GB study)",
       "git": "https://github.com/vvdementiev87/Site-for-practice/",
-      "imgDir": "./images/project1.png"
+      "imgDir": "./images/project1.png",
+      "isFinished": true
     },
     {
       "url": "https://vvdementiev87.github.io/React-study/",
       "text": "Chat on ReactJS (GB study)",
       "git": "https://github.com/vvdementiev87/React-study/",
-      "imgDir": "./images/project2.png"
+      "imgDir": "./images/project2.png",
+      "isFinished": true
     },
     {
       "url": "https://vvdementiev87.github.io/HTML-CSS-SASS-study/",
       "text": "HTML CSS pages (GB study)",
       "git": "https://github.com/vvdementiev87/HTML-CSS-SASS-study/",
-      "imgDir": "./images/project3.png"
+      "imgDir": "./images/project3.png",
+      "isFinished": true
     },
     {
       "url": "https://vvdementiev87.github.io/HTML-FIGMA/",
       "text": "One page landing",
       "git": "https://github.com/vvdementiev87/HTML-FIGMA/",
-      "imgDir": "./images/project4.png"
+      "imgDir": "./images/project4.png",
+      "isFinished": false
     }
   ],
   "skills": [

@@ -30,7 +30,6 @@
   position: absolute;
   width: 300px;
   height: 300px;
-  border: none;
   border-radius: 50%;
   top: 0;
   background: rgba(0, 0, 0, 0.8);
@@ -41,6 +40,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
+}
+.projectUnderConstruction {
+  z-index: 10;
+  opacity: 0.5;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  left: calc(50% - 150px);
+  border: none;
   gap: 10px;
 }
 .projectBtn {

@@ -19,6 +19,15 @@ export const ProjectCard = ({ project }) => {
           <a className={styles.projectBtn} href={project.git}>
             Repository page
           </a>
+          {project.isFinished || (
+            <div className={styles.projectUnderConstruction}>
+              <img
+                className={styles.projectImg}
+                src={"./images/under_construction.png"}
+                alt={project.text}
+              />
+            </div>
+          )}
         </div>
       </div>
     </div>
