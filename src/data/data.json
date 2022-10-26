@@ -9,6 +9,10 @@
       "imgDir": "./images/CSSLogo.png"
     },
     {
+      "text": "JS",
+      "imgDir": "./images/JSLogo.png"
+    },
+    {
       "text": "ReactJS",
       "imgDir": "./images/reactLogo.png"
     },

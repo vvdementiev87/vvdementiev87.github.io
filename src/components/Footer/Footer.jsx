@@ -9,6 +9,9 @@ export const Footer = () => {
       <Link activeClass="active" to="home" spy={true} smooth={true}>
         <img src={"./images/DEVAVI_logo_white.png"} alt="Logo" />
       </Link>
+      <p>
+        <span>&#169;</span> Devavi - portfolio page
+      </p>
     </div>
   );
 };

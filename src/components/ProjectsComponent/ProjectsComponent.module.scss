@@ -2,5 +2,25 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
-  height: 90vh;
+}
+
+.aboutWrapper {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.aboutBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  & h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 120%;
+  }
 }
