@@ -27,6 +27,13 @@
       "git": "https://github.com/vvdementiev87/HTML-FIGMA/",
       "imgDir": "./images/project4.png",
       "isFinished": false
+    },
+    {
+      "url": "http://trigogroup.ru",
+      "text": "Blog on NextJS",
+      "git": "https://github.com/vvdementiev87/blog-frontend-nextjs-ts",
+      "imgDir": "./images/project5.png",
+      "isFinished": false
     }
   ],
   "skills": [
