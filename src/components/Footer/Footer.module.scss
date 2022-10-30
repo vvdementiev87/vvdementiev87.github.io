@@ -1,5 +1,5 @@
 .container {
-  padding: 10px 0;
+  padding: 0 10px;
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
@@ -22,5 +22,19 @@
   }
   & span {
     font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    & img {
+      width: 128px;
+    }
+    & p {
+      font-size: 18px;
+    }
+    & span {
+      font-size: 24px;
+    }
   }
 }

@@ -1,5 +1,5 @@
 .container {
-  padding: 10px 0;
+  padding: 0 10px;
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
@@ -9,8 +9,10 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
+  justify-items: center;
 }
 .aboutImg {
+  margin-bottom: 20px;
   padding: 10px;
   width: 100%;
   max-width: 200px;
@@ -44,5 +46,18 @@
     font-style: normal;
     font-size: 24px;
     line-height: 180%;
+  }
+}
+@media (max-width: 767px) {
+  .aboutWrapper {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .aboutText {
+    padding: 10px;
+    & p {
+      font-size: 18px;
+    }
   }
 }
