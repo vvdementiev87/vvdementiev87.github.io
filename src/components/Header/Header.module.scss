@@ -1,5 +1,5 @@
 .container {
-  padding: 10px 0;
+  padding: 0 10px;
   margin: 0 auto;
   width: 100%;
   max-width: 1024px;
@@ -9,13 +9,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  & > img {
-    width: 256px;
-  }
 }
-
+.imgLogo {
+  width: 256px;
+}
+.imgMenu {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
 .list {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
   color: #ffffff;
@@ -26,5 +32,16 @@
   & > li {
     padding: 20px;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .imgLogo {
+    width: 128px;
+  }
+  .imgMenu {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
   }
 }
