@@ -13,12 +13,6 @@ export const ProjectCard = ({ project }) => {
           alt={project.text}
         />
         <div className={styles.projectCover}>
-          <a className={styles.projectBtn} href={project.url}>
-            Site page
-          </a>
-          <a className={styles.projectBtn} href={project.git}>
-            Repository page
-          </a>
           {project.isFinished || (
             <div className={styles.projectUnderConstruction}>
               <img
@@ -28,6 +22,12 @@ export const ProjectCard = ({ project }) => {
               />
             </div>
           )}
+          <a className={styles.projectBtn} href={project.url}>
+            Site page
+          </a>
+          <a className={styles.projectBtn} href={project.git}>
+            Repository page
+          </a>
         </div>
       </div>
     </div>
