@@ -65,6 +65,15 @@
       "imgDir": "./images/reactLogo.png"
     },
     {
+      "text": "PHP",
+      "imgDir": "./images/phpLogo.png"
+    },
+    
+    {
+      "text": "Laravel",
+      "imgDir": "./images/laravelLogo.png"
+    },
+    {
       "text": "GIT",
       "imgDir": "./images/gitLogo.png"
     }
