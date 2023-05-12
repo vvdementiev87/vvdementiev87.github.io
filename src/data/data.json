@@ -6,6 +6,7 @@
       "text": "BOSOM medical study portal",
       "git": "https://github.com/vvdementiev87/Medical-project-clone/",
       "imgDir": "./images/project6.png",
+      "stack":"backend: Laravel; frontend: ReactJS, Redux",
       "isFinished": true
     },
 {
@@ -13,6 +14,7 @@
       "text": "Blog on NextJS",
       "git": "https://github.com/vvdementiev87/blog-frontend-nextjs-ts",
       "imgDir": "./images/project5.png",
+      "stack":"backend: Laravel; frontend: NextJS",
       "isFinished": false
     },
     {
@@ -20,6 +22,7 @@
       "text": "One page landing",
       "git": "https://github.com/vvdementiev87/HTML-FIGMA/",
       "imgDir": "./images/project4.png",
+      "stack":"frontend: HTML, SASS, CSS",
       "isFinished": true
     },
     {
@@ -27,6 +30,7 @@
       "text": "HTML CSS pages (GB study)",
       "git": "https://github.com/vvdementiev87/HTML-CSS-SASS-study/",
       "imgDir": "./images/project3.png",
+      "stack":"frontend: HTML, SASS, CSS",
       "isFinished": true
     },
     {
@@ -34,6 +38,7 @@
       "text": "Chat on ReactJS (GB study)",
       "git": "https://github.com/vvdementiev87/React-study/",
       "imgDir": "./images/project2.png",
+      "stack":"frontend: ReactJS, Redux",
       "isFinished": true
     },
     {
@@ -41,6 +46,7 @@
       "text": "Online shop (GB study)",
       "git": "https://github.com/vvdementiev87/Site-for-practice/",
       "imgDir": "./images/project1.png",
+      "stack":"frontend: HTML, SASS, CSS, JS, VueJS",
       "isFinished": true
     }
     

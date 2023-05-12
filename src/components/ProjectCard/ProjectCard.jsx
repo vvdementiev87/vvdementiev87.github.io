@@ -4,7 +4,7 @@ import styles from "./ProjectCard.module.scss";
 export const ProjectCard = ({ project }) => {
   console.log(project);
   return (
-    <div className={styles.projectBox}>
+    <div className={styles.projectBox} title={project.stack}>
       <h3>{project.text}</h3>
       <div className={styles.projectImg}>
         <img
