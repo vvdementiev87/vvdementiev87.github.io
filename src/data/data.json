@@ -1,17 +1,25 @@
 {
   "projects": [
+
     {
-      "url": "https://vvdementiev87.github.io/Site-for-practice/",
-      "text": "Online shop (GB study)",
-      "git": "https://github.com/vvdementiev87/Site-for-practice/",
-      "imgDir": "./images/project1.png",
+      "url": "https://test.bosomed.ru/",
+      "text": "BOSOM medical study portal",
+      "git": "https://github.com/vvdementiev87/Medical-project-clone/",
+      "imgDir": "./images/project6.png",
       "isFinished": true
     },
+{
+      "url": "http://trigogroup.ru",
+      "text": "Blog on NextJS",
+      "git": "https://github.com/vvdementiev87/blog-frontend-nextjs-ts",
+      "imgDir": "./images/project5.png",
+      "isFinished": false
+    },
     {
-      "url": "https://vvdementiev87.github.io/React-study/",
-      "text": "Chat on ReactJS (GB study)",
-      "git": "https://github.com/vvdementiev87/React-study/",
-      "imgDir": "./images/project2.png",
+      "url": "https://vvdementiev87.github.io/HTML-FIGMA/",
+      "text": "One page landing",
+      "git": "https://github.com/vvdementiev87/HTML-FIGMA/",
+      "imgDir": "./images/project4.png",
       "isFinished": true
     },
     {
@@ -22,19 +30,22 @@
       "isFinished": true
     },
     {
-      "url": "https://vvdementiev87.github.io/HTML-FIGMA/",
-      "text": "One page landing",
-      "git": "https://github.com/vvdementiev87/HTML-FIGMA/",
-      "imgDir": "./images/project4.png",
-      "isFinished": false
+      "url": "https://vvdementiev87.github.io/React-study/",
+      "text": "Chat on ReactJS (GB study)",
+      "git": "https://github.com/vvdementiev87/React-study/",
+      "imgDir": "./images/project2.png",
+      "isFinished": true
     },
     {
-      "url": "http://trigogroup.ru",
-      "text": "Blog on NextJS",
-      "git": "https://github.com/vvdementiev87/blog-frontend-nextjs-ts",
-      "imgDir": "./images/project5.png",
-      "isFinished": false
+      "url": "https://vvdementiev87.github.io/Site-for-practice/",
+      "text": "Online shop (GB study)",
+      "git": "https://github.com/vvdementiev87/Site-for-practice/",
+      "imgDir": "./images/project1.png",
+      "isFinished": true
     }
+    
+    
+    
   ],
   "skills": [
     {
@@ -54,8 +65,26 @@
       "imgDir": "./images/reactLogo.png"
     },
     {
+      "text": "PHP",
+      "imgDir": "./images/phpLogo.png"
+    },
+    
+    {
+      "text": "Laravel",
+      "imgDir": "./images/laravelLogo.png"
+    },
+    {
+      "text": "Docker",
+      "imgDir": "./images/dockerLogo.png"
+    },
+    {
       "text": "GIT",
       "imgDir": "./images/gitLogo.png"
+    }
+    ,
+    {
+      "text": "Ubuntu/Linux",
+      "imgDir": "./images/ubuntuLogo.png"
     }
   ],
   "studing": [

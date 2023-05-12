@@ -74,8 +74,17 @@
       "imgDir": "./images/laravelLogo.png"
     },
     {
+      "text": "Docker",
+      "imgDir": "./images/dockerLogo.png"
+    },
+    {
       "text": "GIT",
       "imgDir": "./images/gitLogo.png"
+    }
+    ,
+    {
+      "text": "Ubuntu/Linux",
+      "imgDir": "./images/ubuntuLogo.png"
     }
   ],
   "studing": [
